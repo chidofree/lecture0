@@ -2,6 +2,7 @@ $olcolur:#8eff00;
 $pcolour:#001489;
 $ulcolour:#a52be2;
 $pcolour:#09010e;
+$mcolour:#040007;
 
 %forall {
           font-family: sans-serif;
@@ -48,6 +49,14 @@ th, td {
                   color:$pcolour
                 }
             }
+@media all and (max-width: 700px) {
+              #indexart,#footer {
+                display: none;
+              }
+              p,h6,ol,ul {
+                color:$mcolour
+              }
+          }
 
 
   

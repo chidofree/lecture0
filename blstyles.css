@@ -32,5 +32,11 @@ th, td {
 
   p, h6, ol, ul {
     color: #09010e; } }
+@media all and (max-width: 700px) {
+  #indexart, #footer {
+    display: none; }
+
+  p, h6, ol, ul {
+    color: #040007; } }
 
 /*# sourceMappingURL=blstyles.css.map */
