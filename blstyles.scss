@@ -1,0 +1,65 @@
+$olcolur:#8eff00;
+$pcolour:#001489;
+$ulcolour:#a52be2;
+$pcolour:#09010e;
+
+%forall {
+          font-family: sans-serif;
+          font-weight: bold;
+        }
+.row > div {
+              @extend %forall;
+              padding: 10px;
+              border: 2px solid White;
+            }
+ div {
+      @extend %forall;
+           p,h6 {
+               color: $pcolour;
+             }
+          ul {
+               color: $ulcolour;
+             }
+          ol {
+               color: $olcolur;
+             }   
+      }
+.textheader { 
+              @extend %forall;
+              font-size:20pt;
+              font-style:italic;
+            }
+table {
+                border: 0px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+th, td {
+               @extend %forall;
+                padding: 5px;
+                text-align: center;
+            }
+@media print {
+                #Nav {
+                  display: none;
+                }
+                p,h6,ol,ul {
+                  color:$pcolour
+                }
+            }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
